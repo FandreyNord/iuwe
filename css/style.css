@@ -1,0 +1,136 @@
+img{
+    object-fit: cover;
+}
+button{
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.text {
+    width: 70%;
+    background-color: #3E8DBD;
+    padding: 120px 80px 30px 120px;
+    font-family: Bradley Hand, cursive;
+    color: white;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.main__box {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+p.i_u_we {
+    margin: 0;
+    font-size: 30px;
+}
+p.main__text {
+    font-size: 70px;
+}
+button.none__button {
+    transition: background-color 1s, border-radius 1s, width 0.5s;
+    padding: 30px;
+    font-size: 30px;
+    color: #3E8DBD;
+    border-radius: 40px 40px 40px 40px;
+    background-color: #fdfd8c;
+    border: none;
+}
+.adaptiv__button{
+    width: 500px;
+}
+.adaptiv__button:hover{
+    width: 550px;
+}
+.button__button{
+    width: 350px;
+}
+.button__button:hover{
+    width: 400px;
+}
+.none__button:hover{
+    background-color: #f1f1d3;
+    border-radius: 20px;
+}
+.yellow {
+    color: #fdfd8c;
+}
+.motivation__part {
+    display: flex;
+    align-items: stretch;
+    margin-top: 70px;
+}
+.we_are_students {
+    width: 50%;
+    padding: 0px 15px 0px 70px;
+    font-size: 60px;
+    font-family: Bradley Hand, cursive;
+    color: #3E8DBD;
+}
+.motivation__moment {
+    width: 50%;
+    font-size: 40px;
+    font-family: Bradley Hand, cursive;
+    color: #3E8DBD;
+}
+p.motivation__text {
+    font-size: 30px;
+}
+.choice__part {
+    background-color: #fdfd8c;
+    color: #3E8DBD;
+    margin-top: 50px;
+    padding: 100px;
+}
+.question {
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+    margin: 0px 0px 100px 0px;
+}
+.choice__question {
+    display: flex;
+    justify-content: space-evenly;
+}
+.choice__element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-size: 20px;
+    width: 268px;
+}
+p.name {
+    margin: 30px 0px 30px 0px;
+    font-family: Bradley Hand, cursive;
+}
+button.goto {
+    width: 170px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background-color: #3E8DBD;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    transition: background-color 1s, border-radius 1s;
+}
+.goto:hover{
+    border-radius: 10px;
+    background-color: #f1f1d3;
+}
+.choice__img {
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
