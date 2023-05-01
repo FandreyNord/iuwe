@@ -110,6 +110,7 @@ p.motivation__text {
     background-color: white;
     font-size: 20px;
     width: 268px;
+    margin-bottom: 20px;
 }
 p.name {
     margin: 30px 0px 30px 0px;
