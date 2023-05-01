@@ -12,7 +12,7 @@ body{
     padding: 0;
 }
 .text {
-    width: 70%;
+    width: 40%;
     background-color: #3E8DBD;
     padding: 120px 80px 30px 120px;
     font-family: Bradley Hand, cursive;
@@ -42,6 +42,10 @@ button.none__button {
     border-radius: 40px 40px 40px 40px;
     background-color: #fdfd8c;
     border: none;
+}
+.main__img{
+    display: flex;
+    overflow: hidden;
 }
 .adaptiv__button{
     width: 500px;
@@ -97,6 +101,7 @@ p.motivation__text {
 .choice__question {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .choice__element {
     display: flex;
