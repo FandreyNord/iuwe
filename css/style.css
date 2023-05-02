@@ -35,33 +35,23 @@ p.main__text {
     font-size: 70px;
 }
 button.none__button {
-    transition: background-color 1s, border-radius 1s, width 0.5s;
+    transition: background-color 1s, border-radius 1s, width 0.5s, border-bottom 0.2s, border-right 0.2s;
     padding: 30px;
     font-size: 30px;
     color: #3E8DBD;
     border-radius: 40px 40px 40px 40px;
     background-color: #fdfd8c;
     border: none;
+    width: 70%;
 }
 .main__img{
     display: flex;
     overflow: hidden;
 }
-.adaptiv__button{
-    width: 500px;
-}
-.adaptiv__button:hover{
-    width: 550px;
-}
-.button__button{
-    width: 350px;
-}
-.button__button:hover{
-    width: 400px;
-}
 .none__button:hover{
     background-color: #f1f1d3;
     border-radius: 20px;
+    width: 80%;
 }
 .yellow {
     color: #fdfd8c;
