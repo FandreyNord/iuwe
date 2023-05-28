@@ -105,7 +105,7 @@ p.motivation__text {
 p.name {
     margin: 30px 0px 30px 0px;
     font-family: Bradley Hand, cursive;
-    text-aling: center;
+    text-align: center;
 }
 button.goto {
     width: 170px;
@@ -128,7 +128,7 @@ button.goto {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 ul.navigation {
     display: flex;
