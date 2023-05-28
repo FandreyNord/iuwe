@@ -12,7 +12,7 @@ body{
     padding: 0;
 }
 .text {
-    width: 40%;
+    width: 50%;
     background-color: #3E8DBD;
     padding: 120px 80px 30px 120px;
     font-family: Bradley Hand, cursive;
@@ -26,6 +26,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    justify-content: space-between;
 }
 p.i_u_we {
     margin: 0;
