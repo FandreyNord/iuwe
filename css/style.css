@@ -188,6 +188,7 @@ p.interesting-text {
     margin: 20% 10% 5% 0%;
 }
 .wrapper-color {
+    font-family: Bradley Hand, cursive;
     background-color: #f8f6f1;
     display: flex;
     flex-direction: column;
