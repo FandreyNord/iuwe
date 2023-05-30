@@ -450,3 +450,39 @@ p.feed-back-after-main-text {
     font-size: 30px;
     margin: 3% 50% 2% 10%;
 }
+.geo {
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    cursor: pointer;
+}
+.leisure-box-element-main-text{
+    position: relative;
+}
+img.geo-img {
+    width: 9%;
+}
+.geo-map{
+    position:absolute;
+    overflow:hidden;
+    display: none;
+}
+.geo-map-element {
+    transition: background-color 0.6s;
+    cursor: pointer;
+    background-color: #f1f1d3;
+    width: 15%;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid black;
+}
+.geo-map-ul{
+    display: flex;
+    list-style-type: none;    
+}
+.geo-map-element:hover{
+    background-color: #fdfd8c;
+}
+#gork{
+    display: none;
+}
